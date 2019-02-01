@@ -1,0 +1,32 @@
+a, a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+
+.institution_text h2 {
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+  color: white;
+  padding: 20px 20px 0 20px;
+}
+
+#founders_text h2+p {
+  padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+  #overlay {
+    width: 100%;
+  }
+  #overlay div {
+    color: red;
+    display: block;
+    width: 100%;
+  }
+
+  .span2 {
+    display: none;
+  }
+}
+
+
